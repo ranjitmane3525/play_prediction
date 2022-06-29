@@ -6,7 +6,7 @@ from flask import Flask, render_template, request
 # with open(r'D:\Python\Python Programming\My practice\Project\proj_DT\artifacts\dt_model.pkl','rb') as file:
 #     model1 = pickle.load(file)
 
-model = pickle.load(open(r'D:\Python\Python Programming\My practice\Project\proj_DT\artifacts\dt_model.pkl','rb'))
+model = pickle.load(open(r'artifacts\dt_model.pkl','rb'))
 
 app = Flask(__name__)
 
